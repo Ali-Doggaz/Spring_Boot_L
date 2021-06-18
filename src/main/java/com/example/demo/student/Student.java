@@ -1,8 +1,28 @@
 package com.example.demo.student;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.time.LocalDate;
+import javax.persistence.*;
+
+@Entity //For Hibernate
+@Table //For the table in our DB
 
 public class Student {
+    @Id
+
+    @SequenceGenerator(
+            name="student_sequence",
+            sequenceName="student_sequence",
+            allocationSize = 1
+    )
+
+    @GeneratedValue(
+            strategy = GenerationType.SEQUENCE,
+            generator = "student_sequence"
+    )
+
     private Long Id;
     private String Name;
     private Integer Age;
