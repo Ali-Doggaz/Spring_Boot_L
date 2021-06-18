@@ -1,0 +1,33 @@
+POST http://localhost:8080/api/v1/student
+Content-Type: application/json
+
+{
+  "name": "Mohssen",
+  "email": "Mohssen@gmail.com",
+  "dob": "1995-12-17"
+}
+
+###
+
+POST http://localhost:8080/api/v1/student
+Content-Type: application/json
+
+{
+  "name": "Mohssen",
+  "email": "Mohssen@gmail.com",
+  "DOB": "1995-6-8"
+}
+
+###
+
+POST http://localhost:8080/api/v1/student
+Content-Type: application/json
+
+{
+  "name": "Mohssen",
+  "email": "Mohssen@gmail.com",
+  "DOB": "1995-06-08"
+}
+
+###
+

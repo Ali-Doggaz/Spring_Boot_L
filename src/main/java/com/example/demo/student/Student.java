@@ -4,6 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import java.time.LocalDate;
+import java.time.Period;
 import javax.persistence.*;
 
 @Entity //For Hibernate
@@ -25,24 +26,23 @@ public class Student {
 
     private Long Id;
     private String Name;
-    private Integer Age;
     private LocalDate DOB;
     private String Email;
+    @Transient
+    private Integer Age;
 
     public Student() {
     }
 
-    public Student(Long id, String name, Integer age, LocalDate DOB, String email) {
+    public Student(Long id, String name, LocalDate DOB, String email) {
         Id = id;
         Name = name;
-        Age = age;
         this.DOB = DOB;
         Email = email;
     }
 
-    public Student(String name, Integer age, LocalDate DOB, String email) {
+    public Student(String name, LocalDate DOB, String email) {
         Name = name;
-        Age = age;
         this.DOB = DOB;
         Email = email;
     }
@@ -63,8 +63,9 @@ public class Student {
         Name = name;
     }
 
+    //calculate the age using the DOB
     public Integer getAge() {
-        return Age;
+        return Period.between(DOB, LocalDate.now()).getYears();
     }
 
     public void setAge(Integer age) {
