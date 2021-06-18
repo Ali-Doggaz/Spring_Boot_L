@@ -28,4 +28,9 @@ public class StudentController {
         studentService.addNewStudent(student);
     }
 
+    @DeleteMapping(path = "{email}")
+    public void deleteStudent(@PathVariable("email") String email){
+        studentService.deleteStudentByEmail(email);
+    }
+
 }
