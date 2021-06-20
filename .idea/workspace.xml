@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4da6d0fc-e77f-46b8-ac66-16edda2e127b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/student/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/student/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/student/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/student/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/student/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/student/StudentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/student/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/student/StudentService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +56,26 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/api/v1/student/2" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="new_email" />
+                <option name="value" value="Alex2@gmail.com" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="new_name" />
+                <option name="value" value="Alex2" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://localhost:8080/api/v1/student/2" />
@@ -269,7 +284,7 @@
       <workItem from="1624014043735" duration="3030000" />
       <workItem from="1624029310629" duration="389000" />
       <workItem from="1624029864356" duration="10491000" />
-      <workItem from="1624180900877" duration="2128000" />
+      <workItem from="1624180900877" duration="3115000" />
     </task>
     <servers />
   </component>
