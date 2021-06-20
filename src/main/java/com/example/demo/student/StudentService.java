@@ -3,9 +3,7 @@ package com.example.demo.student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDate;
-import java.time.Month;
-import java.util.Collections;
+import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
 
@@ -38,6 +36,18 @@ public class StudentService {
             throw new IllegalStateException("Student Doesn't Exists");
         }
         studentRepository.deleteByEmail(email);
+    }
+
+    @Transactional //permet de modifier la bd avec les getters et setters
+    public void updateStudent(Long id, String new_email, String new_name) {
+        Optional<Student> studentOptional = studentRepository.findById(id);
+        if(!studentOptional.isPresent()){
+            throw new IllegalStateException("Student Doesn't Exist");
+        }
+        Student s = studentOptional.get();
+        if (new_email != null && new_email.length()>0 && new_email!=s.getEmail()) s.setEmail(new_email);
+        if (new_name != null && new_name.length()>0 && new_name!=s.getName()) s.setName(new_name);
+        System.out.println(s);
     }
 }
 

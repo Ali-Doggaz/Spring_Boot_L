@@ -1,3 +1,157 @@
+PUT http://localhost:8080/api/v1/student/2?new_email=Alex2@gmail.com&new_name=Alex2
+
+###
+
+PUT http://localhost:8080/api/v1/student/2?new_email=Alex2@gmail.com?new_name=Alex2
+
+###
+
+PUT http://localhost:8080/api/v1/student/2/Alex2@gmail.com/Alex2
+
+<> 2021-06-20T105415.404.json
+
+###
+
+PUT http://localhost:8080/api/v1/student/2/Alex2@gmail.com/Alex2
+
+<> 2021-06-20T105300.404.json
+
+###
+
+PUT http://localhost:8080/api/v1/student/2/Alex2@gmail.com/Alex2
+
+<> 2021-06-20T105142.404.json
+
+###
+
+PUT http://localhost:8080/api/v1/student/1/Alex2@gmail.com/Alex
+
+<> 2021-06-20T105117.404.json
+
+###
+
+PUT http://localhost:8080/api/v1/student/2/Alex2@gmail.com/Alex
+
+<> 2021-06-20T105049.404.json
+
+###
+
+PUT http://localhost:8080/api/v1/student/2/Alex@gmail.com/Alex
+
+<> 2021-06-20T105027.404.json
+
+###
+
+PUT http://localhost:8080/api/v1/student/3/Alex@gmail.com/Alex
+
+<> 2021-06-20T105016.404.json
+
+###
+
+PUT http://localhost:8080/api/v1/student/3/Alex@gmail.com/Alex
+
+<> 2021-06-20T104951.404.json
+
+###
+
+PUT http://localhost:8080/api/v1/student/2/Alex@gmail.com/Alex
+
+<> 2021-06-20T104948.404.json
+
+###
+
+PUT http://localhost:8080/api/v1/student/1/aloulou@gmail.com/Ali
+
+<> 2021-06-20T104941.404.json
+
+###
+
+PUT http://localhost:8080/api/v1/student/2/aloulou2@gmail.com
+
+###
+
+PUT http://localhost:8080/api/v1/student/2/aloulou2@gmail.com
+
+<> 2021-06-20T104337.404.json
+
+###
+
+PUT http://localhost:8080/api/v1/student/2/aloulou2@gmail.com
+
+<> 2021-06-20T104334.404.json
+
+###
+
+PUT http://localhost:8080/api/v1/student/1/aloulou2@gmail.com
+
+<> 2021-06-20T104322.404.json
+
+###
+
+PUT http://localhost:8080/api/v1/student/1/aloulou2@gmail.com
+
+<> 2021-06-20T104215.404.json
+
+###
+
+PUT http://localhost:8080/api/v1/student/1/aloulou@gmail.com
+
+<> 2021-06-20T104132.404.json
+
+###
+
+PUT http://localhost:8080/api/v1/student/1/aloulou@gmail.com/aloulou
+
+###
+
+PUT http://localhost:8080/api/v1/student/1/aloulou@gmail.com/aloulou
+
+###
+
+PUT http://localhost:8080/api/v1/student/1/aloulou@gmail.com/aloulou
+
+###
+
+PUT http://localhost:8080/api/v1/student/1/aloulou@gmail.com/aloulou
+
+###
+
+PUT http://localhost:8080/api/v1/student/1/aloulou@gmail.com/aloulou
+
+###
+
+PUT http://localhost:8080/api/v1/student/1/aloulou@gmail.com/aloulou
+
+###
+
+PUT http://localhost:8080/api/v1/student/1/aloulou@gmail.com/aloulou
+
+###
+
+PUT http://localhost:8080/api/v1/student/1/{aloulou@gmail.com}/{aloulou}
+
+###
+
+PUT http://localhost:8080/api/v1/student/{1}/{aloulou@gmail.com}/{aloulou}
+
+###
+
+PUT http://localhost:8080/api/v1/student/1}/{aloulou@gmail.com}/{aloulou}
+
+###
+
+PUT http://localhost:8080/api/v1/student/1}/{aloulou@gmail.com}/{aloulou}
+
+###
+
+PUT http://localhost:8080/api/v1/student/{1}/{aloulougmail.com}/{aloulou}
+
+###
+
+PUT http://localhost:8080/api/v1/student/{1}/{aloulou@gmail.com}/{aloulou}
+
+###
+
 DELETE http://localhost:8080/api/v1/student/ali@gmail.com
 
 <> 2021-06-18T221133.500.json

@@ -8,10 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/student/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/student/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/student/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/student/StudentRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/student/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/student/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/student/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/student/StudentController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/student/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/student/StudentService.class" afterDir="false" />
     </list>
@@ -64,6 +61,92 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/api/v1/student/2" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="new_email" />
+                <option name="value" value="Alex2@gmail.com?new_name=Alex2" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/api/v1/student/2/Alex2@gmail.com/Alex2" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/api/v1/student/1/Alex2@gmail.com/Alex" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/api/v1/student/2/Alex2@gmail.com/Alex" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/api/v1/student/2/Alex@gmail.com/Alex" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/api/v1/student/3/Alex@gmail.com/Alex" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/api/v1/student/1/aloulou@gmail.com/Ali" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/api/v1/student/2/aloulou2@gmail.com" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/api/v1/student/1/aloulou2@gmail.com" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/api/v1/student/1/aloulou@gmail.com" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8080/api/v1/student/1/aloulou@gmail.com/aloulou" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="DELETE" />
           <option name="urlBase" value="http://localhost:8080/api/v1/student/ali@gmail.com" />
@@ -137,13 +220,15 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.DemoApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,6 +237,9 @@
       <method v="2" />
     </configuration>
     <configuration name="generated-requests#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -163,6 +251,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests#3" />
         <item itemvalue="HTTP Request.generated-requests#2" />
         <item itemvalue="HTTP Request.generated-requests#1" />
       </list>
@@ -179,7 +268,8 @@
       <workItem from="1623864436607" duration="658000" />
       <workItem from="1624014043735" duration="3030000" />
       <workItem from="1624029310629" duration="389000" />
-      <workItem from="1624029864356" duration="9776000" />
+      <workItem from="1624029864356" duration="10491000" />
+      <workItem from="1624180900877" duration="2128000" />
     </task>
     <servers />
   </component>
